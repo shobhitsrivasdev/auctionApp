@@ -24,7 +24,8 @@ const AuctionSchema=new Schema({
         required:[true,'Starting Amount field is required']
     },
     winner:{
-        type:String
+        type:String,
+        default:null
     },
     image_url:{
         type:String

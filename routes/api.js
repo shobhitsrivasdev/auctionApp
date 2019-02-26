@@ -7,8 +7,6 @@ const cron = require("node-cron");
 const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
-
-
 router.get('/getauctionItemDetails', (req, res, next) => {
     Auction.find().then((items) => {
         res.send(items);
