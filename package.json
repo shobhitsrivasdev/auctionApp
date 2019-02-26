@@ -1,0 +1,23 @@
+{
+  "name": "bankofhoddler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.15",
+    "node-cron": "^2.0.3",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "10.15.1"
+  }
+}
